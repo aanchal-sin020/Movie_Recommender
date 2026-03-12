@@ -62,7 +62,7 @@ def recommend(movie, movies_data):
 movies_data = pickle.load(open("movies_data.pkl", "rb"))
 similarity = pickle.load(open("similarity.pkl", "rb"))
 
-st.title(":blue[Movie Recommendation System]:snow_cloud:")
+st.title(":blue[🎬 Movie Recommendation System] 🍿")
 
 selected_movie = st.selectbox(
     'Choose Movie',
